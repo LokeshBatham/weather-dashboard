@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.activeSidebar{
+  color: #1877F2;
+    background-color: rgba(24 119 242 / 0.08);  
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.activeSidebar .css-1edfpdg-MuiTypography-root{
+  font-weight: 700 !important;
+}
+
+.inactiveSidebar:active{
+  color: #1877F2 !important;
+}
+
+.inactiveSidebar:hover{
+  background-color:rgba(145 158 171 / 0.08);
+  border-radius: 10px;
+}
+
+@media screen and (max-width:767px) {
+  .cityname{
+    font-size: 1.8rem !important;
+  }
+  .cityname img{
+    height: 65px;
+    width: 80px;
+  }
+  .disc{
+    font-size: 1.2rem !important;
+  }
+}
